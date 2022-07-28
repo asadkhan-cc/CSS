@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">Home</a>  | 
+        <a href="/form.html">Contact Us</a> | 
+        <a href="/lists.html">Lists</a> | <a href="/psudo.html">Psudo Classes</a>
+      </nav>
+      <h1>css tutorial</h1>
+      <h2 class="black">some text in h2</h2>
+      <ul>
+        <li>asad is <em>the best</em> Person</li>
+      </ul>
+    </header>
+
+    <section>
+      <img
+        class="pos"
+        style="border: 10px solid red; width: 10%; height: auto"
+        src="https://ca.slack-edge.com/T09REQ9D3-U02FN52AKD3-4d3b4ad37c45-72"
+      />
+
+      <section class="leads">
+        <img
+          style="border: 10px solid red; width: auto; height: auto"
+          src="https://ca.slack-edge.com/T09REQ9D3-U02R9LSAZCM-d4ccf3d02fde-72"
+        />
+        <img
+          style="border: 10px solid red; width: auto; height: auto"
+          src="https://ca.slack-edge.com/T09REQ9D3-U02R5UM2Z54-c6825f418442-72"
+        />
+      </section>
+    </section>
+    <section>
+      <table>
+        <tbody>
+          <tr class="abc">
+            <th colspan="3">CSS ─ Measurement Units</th>
+          </tr>
+          <tr>
+            <th>unit</th>
+            <th>desc</th>
+            <th>example</th>
+          </tr>
+          <tr>
+            <td>%</td>
+            <td>
+              Defines a measurement as a percentage relative to another value,
+              typically an enclosing element.
+            </td>
+            <td><pre>p {font-size:16pt; line-height:125%;}</pre></td>
+          </tr>
+          <tr>
+            <td>cm</td>
+            <td>Defines a measurement in centimeters.</td>
+            <td>
+              <pre>
+        div {
+    
+            margin-bottom: 2cm
+            }</pre
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>em</td>
+            <td>
+              A relative measurement for the height of a font in em spaces.
+              Because an em unit is equivalent to the size of a given font, if
+              you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em
+              would be 24pt.
+            </td>
+            <td>
+              <pre>p {letter-spacing: 7em;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>ex</td>
+            <td>
+              This value defines a measurement relative to a font's x-height.
+              The x- height is determined by the height of the font's lowercase
+              letter x.
+            </td>
+            <td>
+              <pre>p {font-size:16pt; line-height:125%;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>in</td>
+            <td>Defines a measurement in inches.</td>
+            <td>
+              <pre>p {word-spacing: .15in;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>mm</td>
+            <td>Defines a measurement in millimeters.</td>
+            <td>
+              <pre>p {word-spacing: 15mm;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>pc</td>
+            <td>
+              Defines a measurement in picas. A pica is equivalent to 12 points;
+              thus, there are 6 picas per inch.
+            </td>
+            <td>
+              <pre>p {font-size: 20pc;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>pt</td>
+            <td>
+              Defines a measurement in points. A point is defined as 1/72nd of
+              an inch.
+            </td>
+            <td>
+              <pre>body {font-size: 18pt;}</pre>
+            </td>
+          </tr>
+          <tr>
+            <td>px</td>
+            <td>Defines a measurement in screen pixels.</td>
+            <td>
+              <pre>p {padding: 25px;}</pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <section></section>
+      <p
+        style="
+          width: 60%;
+          border-width: 4px;
+          border-top-style: solid;
+          border-bottom-style: dashed;
+          border-left-style: groove;
+          border-right-style: double;
+        "
+      >
+        This is a a border with four different styles.This is a a border with
+        four different styles.This is a a border with four different styles.This
+        is a a border with four different styles.This is a a border with four
+        different styles.This is a a border with four different styles.This is a
+        a border with four different styles.This is a a border with four
+        different styles.This is a a border with four different styles.This is a
+        a border with four different styles.This is a a border with four
+        different styles.
+        <span
+          >border-top-style: solid; border-bottom-style: dashed;
+          border-left-style: groove; border-right-style: double;</span
+        >
+      </p>
+    
+    </section>
+    <section class="pos">  <p style="border-width: 4px; border-style: none">
+        This is a border with none width.
+      </p>
+      <p style="border-width: 4px; border-style: solid">
+        This is a solid border.
+      </p>
+      <p style="border-width: 4px; border-style: dashed">
+        This is a dahsed border.
+      </p>
+      <p style="border-width: 4px; border-style: double">
+        This is a double border.
+      </p>
+      <p style="border-width: 4px; border-style: groove">
+        This is a groove border.
+      </p>
+      <p style="border-width: 4px; border-style: ridge">
+        This is aridge border.
+      </p>
+      <p style="border-width: 4px; border-style: inset">
+        This is a inset border.
+      </p>
+      <p style="border-width: 4px; border-style: outset">
+        This is a outset border.
+      </p>
+      <p style="border-width: 4px; border-style: hidden">
+        This is a hidden border.
+      </p>
+      <p
+        style="
+          border-width: 4px;
+          border-top-style: solid;
+          border-bottom-style: dashed;
+          border-left-style: groove;
+          border-right-style: double;
+        "
+      >
+        This is a a border with four different styles.
+      </p></section>
+      <p style="font-size:16pt; line-height:125%;">;LKSDNIJASDUASJKDNSAKJBDSIUASBDJKBASDBHASBDBIUSABDHABDIU</p>   
+
+      </body>
+</html>

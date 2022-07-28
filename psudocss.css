@@ -1,0 +1,29 @@
+table thead{
+    color: black;
+    text-shadow: 1%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+}
+tbody tr:first-child{
+    color: aqua;
+    align-items: center;
+}
+tbody tr:last-child{
+    background-color: yellowgreen;
+    /* color: aqua; */
+    align-items: center;
+}
+
+tbody td:first-child:first-letter{
+    /* background-color: yellowgreen; */
+    /* color: aqua; */
+    align-items: center;
+    font-size: 3rem;
+}
+
+tbody td:last-child::first-line{
+    background-color: yellowgreen;
+    /* color: aqua; */
+    align-items: center;
+}
